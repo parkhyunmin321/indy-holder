@@ -12,13 +12,13 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Hello, DID Holder!" />
+        android:text="이 앱의 역할 및 기능" />
 
     <Button
         android:id="@+id/btn_issue_test_cred"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="테스트 증명서 발급" />
+        android:text="조회하기" />
 
     <Button
         android:id="@+id/btn_nav_to_cred_list"
