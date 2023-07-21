@@ -14,7 +14,7 @@ import lec.baekseokuni.indyholder.credential.CredentialListActivity;
 
 public class MainActivity extends AppCompatActivity {
     View.OnClickListener onStartDeeplink = v -> {
-        String testDeeplink = "indy://holder?secret=test1";
+        String testDeeplink = "indy://holder?secret=0NcT8Gbk9Z";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(testDeeplink));
         startActivity(intent);
         finish();

@@ -92,14 +92,18 @@
             android:paddingHorizontal="5dp"
             android:text="issue" />
 
+        <ScrollView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
         <TextView
             android:id="@+id/txt_issue"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
-            android:maxLines="10"
+            android:maxLines="30"
             android:paddingHorizontal="5dp"
             android:text="issue payload" />
+
     </LinearLayout>
 
     <LinearLayout
